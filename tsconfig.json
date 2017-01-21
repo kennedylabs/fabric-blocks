@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "target": "es6",
+    "jsx": "preserve",
+    "sourceMap": true,
+    "skipDefaultLibCheck": true,
+    "paths": {
+        "history": ["./node_modules/@types/history/index"],
+        "react": ["./node_modules/@types/react/index"]
+    }
+  },
+  "exclude": [
+    "bin",
+    "node_modules"
+  ]
+}
